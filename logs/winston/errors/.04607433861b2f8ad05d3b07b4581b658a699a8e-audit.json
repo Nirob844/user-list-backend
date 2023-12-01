@@ -14,6 +14,11 @@
             "date": 1701425851686,
             "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-16-error.log",
             "hash": "05fd52345f5edc48923a3f9657698f6553f6e90893f00546f4a99889975923ad"
+        },
+        {
+            "date": 1701434773546,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-18-error.log",
+            "hash": "d098188931d1fc627f4cb55725e69ddcaf3cc502f0e94d4b5efc0f1e005b133a"
         }
     ],
     "hashType": "sha256"
