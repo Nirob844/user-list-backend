@@ -19,6 +19,16 @@
             "date": 1701434773546,
             "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-18-error.log",
             "hash": "d098188931d1fc627f4cb55725e69ddcaf3cc502f0e94d4b5efc0f1e005b133a"
+        },
+        {
+            "date": 1701435752642,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-19-error.log",
+            "hash": "7c1106675cd8c710de3d9b1feaef1d901f92d0c571963feef80a64b6b0af9094"
+        },
+        {
+            "date": 1701443537135,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-21-error.log",
+            "hash": "3f9f6269e68825ac0c19ab184cfdafed7651765e6b0fd17325ddca4c8f93cea5"
         }
     ],
     "hashType": "sha256"

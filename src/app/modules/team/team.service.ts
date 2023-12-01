@@ -25,7 +25,30 @@ const getAllTeams = async (): Promise<ITeam[]> => {
   return teams;
 };
 
+const getTeamById = async (id: string): Promise<ITeam | null> => {
+  const result = await Team.findById(id).populate('users');
+  return result;
+};
+
+const updateTeam = async (
+  id: string,
+  payload: Partial<ITeam>
+): Promise<ITeam | null> => {
+  const result = await Team.findByIdAndUpdate(id, payload, {
+    new: true,
+  });
+  return result;
+};
+
+const deleteTeam = async (id: string): Promise<ITeam | null> => {
+  const result = await Team.findByIdAndDelete(id);
+  return result;
+};
+
 export const TeamService = {
   createTeam,
   getAllTeams,
+  getTeamById,
+  updateTeam,
+  deleteTeam,
 };
