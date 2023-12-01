@@ -1,10 +1,20 @@
 import { SortOrder } from 'mongoose';
+import ApiError from '../../../errors/ApiError';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
 import { userSearchableFields } from './user.constant';
 import { IUser } from './user.interface';
 import { User } from './user.model';
+
+const createUser = async (user: IUser): Promise<IUser | null> => {
+  const createdUser = await User.create(user);
+
+  if (!createdUser) {
+    throw new ApiError(400, 'failed to create user !');
+  }
+  return createdUser;
+};
 
 const getAllUsers = async (
   filters: any,
@@ -65,6 +75,14 @@ const getAllUsers = async (
   };
 };
 
+const getSingleUser = async (id: string): Promise<IUser | null> => {
+  const result = await User.findById(id);
+
+  return result;
+};
+
 export const UserService = {
+  createUser,
   getAllUsers,
+  getSingleUser,
 };

@@ -8,6 +8,18 @@ import { userFilterableFields } from './user.constant';
 import { IUser } from './user.interface';
 import { UserService } from './user.service';
 
+const createUser = catchAsync(async (req: Request, res: Response) => {
+  const { ...user } = req.body;
+  const result = await UserService.createUser(user);
+
+  sendResponse<IUser>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'User created successfully',
+    data: result,
+  });
+});
+
 const getAllUsers = catchAsync(async (req: Request, res: Response) => {
   const filters = pick(req.query, userFilterableFields);
   const paginationOptions = pick(req.query, paginationFields);
@@ -24,5 +36,6 @@ const getAllUsers = catchAsync(async (req: Request, res: Response) => {
 });
 
 export const UsersController = {
+  createUser,
   getAllUsers,
 };
