@@ -29,6 +29,26 @@
             "date": 1701443537119,
             "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\successes\\DCH-2023-01-12-21-success.log",
             "hash": "9fc469afde7e605f6ac01a0ed5d0b7f64e8303d407bb8dad8a722c940b3f1059"
+        },
+        {
+            "date": 1701491931436,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\successes\\DCH-2023-02-12-10-success.log",
+            "hash": "d8ab2d55f5f9d29b7c20093d0e8d038bf7677fb57cabf459ff9f70e37edc0194"
+        },
+        {
+            "date": 1701508382721,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\successes\\DCH-2023-02-12-15-success.log",
+            "hash": "1412ac04bee15163a0c2e87101ed58c5cd856c03e4bfd5e9b2274274f1ff2dee"
+        },
+        {
+            "date": 1701575474945,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\successes\\DCH-2023-03-12-09-success.log",
+            "hash": "27904811dcddf964715aadc23b4a3f85442ba6b8e0d90e1334c00f05e9e1133e"
+        },
+        {
+            "date": 1701593862847,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\successes\\DCH-2023-03-12-14-success.log",
+            "hash": "6bdaed26d473582625684ba7fccc0343f1017b684496a653a5fbbaab3d009a78"
         }
     ],
     "hashType": "sha256"

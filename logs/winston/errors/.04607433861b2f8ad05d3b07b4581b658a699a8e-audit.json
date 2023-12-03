@@ -29,6 +29,26 @@
             "date": 1701443537135,
             "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-01-12-21-error.log",
             "hash": "3f9f6269e68825ac0c19ab184cfdafed7651765e6b0fd17325ddca4c8f93cea5"
+        },
+        {
+            "date": 1701491931461,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-02-12-10-error.log",
+            "hash": "d256712745751d1e9bc46c9bb38cdfb2bb5f86a2ed32681da6dae2b046668376"
+        },
+        {
+            "date": 1701508382739,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-02-12-15-error.log",
+            "hash": "d02bd0a0348e349894bc5d2e91942f479eeca29138f3e3248dc490be38789adb"
+        },
+        {
+            "date": 1701575474968,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-03-12-09-error.log",
+            "hash": "0591f57d0416c9837ecdfc10aabc43be9c01281ad6e8b85b166f51d7aa7a85a9"
+        },
+        {
+            "date": 1701593862854,
+            "name": "C:\\project\\level-2\\user-list-backend\\logs\\winston\\errors\\DCH-2023-03-12-14-error.log",
+            "hash": "d1e7bf12b9bb6a1be340ff8a75271f7b8a24c62cd44c763cfb5cbad7760dd4cc"
         }
     ],
     "hashType": "sha256"

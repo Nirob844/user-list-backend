@@ -5,7 +5,6 @@ import config from '../../config';
 import ApiError from '../../errors/ApiError';
 import handleValidationError from '../../errors/handleValidationError';
 import { IGenericErrorMessage } from '../../interfaces/error';
-import { errorLogger } from '../../shared/logger';
 
 const globalErrorHandler: ErrorRequestHandler = (
   error,
@@ -15,7 +14,7 @@ const globalErrorHandler: ErrorRequestHandler = (
 ) => {
   config.env == 'development'
     ? console.log('global handler ~`', error)
-    : errorLogger.error('global error handler', error);
+    : console.error('global error handler', error);
 
   let statusCode = 500;
   let message = 'Something went wrong !';
